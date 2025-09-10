@@ -70,7 +70,7 @@ public class RdfSerializationExample {
 					exportOutputStream, sites,
 					PropertyRegister.getWikidataPropertyRegister());
 			// Serialize simple statements (and nothing else) for all items
-			serializer.setTasks(RdfSerializer.TASK_ITEMS | RdfSerializer.TASK_ALL_ENTITIES
+			serializer.setTasks(RdfSerializer.TASK_ITEMS
 					| RdfSerializer.TASK_SIMPLE_STATEMENTS);
 
 			// Run serialization

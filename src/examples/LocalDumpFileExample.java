@@ -25,6 +25,8 @@ import org.wikidata.wdtk.dumpfiles.DumpProcessingController;
 import org.wikidata.wdtk.dumpfiles.EntityTimerProcessor;
 import org.wikidata.wdtk.dumpfiles.MwLocalDumpFile;
 
+import java.io.IOException;
+
 /**
  * This class illustrates how to process local dumpfiles. It uses
  * {@link EntityTimerProcessor} to process a dump.
@@ -39,7 +41,7 @@ public class LocalDumpFileExample {
 	 */
 	private final static String DUMP_FILE = "./src/resources/sample-dump-20150815.json.gz";
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		ExampleHelpers.configureLogging();
 		LocalDumpFileExample.printDocumentation();
 
