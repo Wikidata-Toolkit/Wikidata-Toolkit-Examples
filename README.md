@@ -1,8 +1,11 @@
 # Wikidata Toolkit Examples
 
 This is an example project that shows how to set up a Java project that
-uses [Wikidata Toolkit](https://github.com/Wikidata/Wikidata-Toolkit).
+uses [Wikidata Toolkit](https://github.com/Wikidata-Toolkit/Wikidata-Toolkit).
 It contains several simple example programs and bots in the source directory.
+
+If you want to suggest changes, please don't make pull requests to this repository,
+but to the `wdtk-examples` module of [Wikidata Toolkit](https://github.com/Wikidata-Toolkit/Wikidata-Toolkit)
 
 What's found in this repository
 -------------------------------
@@ -35,7 +38,7 @@ example:
 Credits and License
 -------------------
 
-This project is copied from the [Wikidata Toolkit](https://github.com/Wikidata/Wikidata-Toolkit) examples module.
+This project is copied from the [Wikidata Toolkit](https://github.com/Wikidata-Toolkit/Wikidata-Toolkit) examples module.
 Authors can be found there.
 
 License: [Apache 2.0](LICENSE)
